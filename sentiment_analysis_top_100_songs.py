@@ -2,7 +2,7 @@ import pandas as pd
 import time
 from nltk.sentiment import SentimentIntensityAnalyzer
 
-t0 = time.time()
+#t0 = time.time()
 
 top_100 = pd.read_csv('/Users/brit.cava/Desktop/top100.csv')
 
@@ -17,13 +17,12 @@ for word in text:
     ss = sid.polarity_scores(word)
     scores.append(ss['compound'])
     
-
 for i in range(len(words)):
     word_score_dict[words[i]] = scores[i]
 
-t1 = time.time()
+#t1 = time.time()
 
-total = t1-t0
+#total = t1-t0
 
 print(total)
     
