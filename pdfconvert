@@ -1,3 +1,16 @@
+# Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install PDFMiner
+https://github.com/euske/pdfminer/
+
+# Move PDFMiner to Desktop
+mv /Users/brit.cava/Downloads/pdfminer-master /Users/brit.cava/Desktop/pdfminer-master
+
+# Make folder to store files to be converted
+mkdir -p /Users/brit.cava/Desktop/pdfminer-master/convert
+
+# Run compands
 cd Desktop
 cd pdfminer-master
 cd convert
