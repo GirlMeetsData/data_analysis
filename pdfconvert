@@ -10,7 +10,7 @@ mv /Users/brit.cava/Downloads/pdfminer-master /Users/brit.cava/Desktop/pdfminer-
 # Make folder to store files to be converted
 mkdir -p /Users/brit.cava/Desktop/pdfminer-master/convert
 
-# Run compands
+# Run commands
 cd Desktop
 cd pdfminer-master
 cd convert
