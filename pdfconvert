@@ -1,0 +1,4 @@
+cd Desktop
+cd pdfminer-master
+cd convert
+convert brit.cava$ pdf2txt.py -o resume.txt resume.pdf
