@@ -17,7 +17,7 @@ cd convert
 pdf2txt.py -o resume.txt resume.pdf
 
 # Notes
-File - http://www.cityofpaloalto.org/civicax/filebank/documents/18224
-Code - pdf2txt.py -o policelog.txt policelog.pdf
+Files - http://www.cityofpaloalto.org/civicax/filebank/documents/18224; 
+        https://arlweb.msha.gov/fatals/metal/2016/preliminaries/prelim1-mnm-2016.pdf
 
 Returned no text results. Try Tesseract?
