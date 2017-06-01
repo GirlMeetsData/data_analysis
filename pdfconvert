@@ -15,3 +15,9 @@ cd Desktop
 cd pdfminer-master
 cd convert
 pdf2txt.py -o resume.txt resume.pdf
+
+# Notes
+File - http://www.cityofpaloalto.org/civicax/filebank/documents/18224
+Code - pdf2txt.py -o policelog.txt policelog.pdf
+
+Returned no text results. Try Tesseract?
